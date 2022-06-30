@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkterravasta_website=self.webpackChunkterravasta_website||[]).push([[6553],{7751:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/terravasta-website/blog/tags/hello","allTagsPath":"/terravasta-website/blog/tags","count":2}')}}]);

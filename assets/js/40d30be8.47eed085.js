@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkterravasta_website=self.webpackChunkterravasta_website||[]).push([[5647],{8914:e=>{e.exports=JSON.parse('{"permalink":"/terravasta-website/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
