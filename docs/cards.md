@@ -4,7 +4,7 @@ As cartas são os principais componentes do jogo. Nelas são representadas as cr
 ## Tipos de carta
 As cartas podem ser divididas em três grandes grupos: construções, criaturas e feitiços. Antes de apresentar cada um dos tipos, será mostrado os componentes em comum entre as cartas. Todas as cartas vão possuir esses componentes:
 
-![](/img/common_card.png)
+![](/img/others/common_card.png)
 
 1. Raridade. As cartas possuem um tipo de raridade, que representa o quão rara ela é.
 2. Nome da carta.
@@ -16,7 +16,7 @@ Esse tipo de carta descreve uma construção ou lugar que pertença ao clã. Iss
 
 As construções são as principais fontes de produção de recursos. Então é muito importante mantê-las seguras. Aqui está um exemplo de carta do tipo **Construção**.
 
-![](/img/building_card.png)
+![](/img/others/building_card.png)
 
 1. Representa o clã que a construção pertence. Você só pode utilizar construções que são do clã do seu deck ou do clã **Neutral**. Nesse exemplo, a construção é do clã **Neutral**.
 2. São os recursos que a construção produz por turno. Nesse exemplo, a construção produz uma unidade de **madeira**.
@@ -26,19 +26,22 @@ As construções são as principais fontes de produção de recursos. Então é 
 
 
 #### <a name="defesa"></a>Regra da defesa
-As construções podem possuir uma quantidade de defesa. Isso serve para barrar parte do dano que é causada de certos ataques. A regra é descrita da seguinte maneira:
+As construções podem possuir uma quantidade de defesa. Isso serve para barrar parte do dano que é causada de certos ataques.
 
-**Se o ataque for maior que a defesa, então o dano é a diferença do ataque pela defesa. Se o ataque for menor ou igual que a defesa, então não há defesa nesse caso, ou seja, o dano é o ataque.**
+:::info Regra da Defesa
+Se o ataque for maior que a defesa, então o dano é a diferença do ataque pela defesa. Se o ataque for menor ou igual que a defesa, então não há defesa nesse caso, ou seja, o dano é o ataque.
+:::
 
-Exemplos:
+:::tip Exemplo
 - Uma criatura com 3 de ataque, ataca uma construção com 2 de defesa. Já que o ataque é maior que a defesa, então se faz a subtração do ataque pela defesa. O dano causado na vida da construção será de 1.
 - Uma criatura com 1 de ataque, ataca uma construção com 2 de defesa. Já que o ataque é menor que a defesa, então o dano será o ataque. O dano causado na vida da construção será de 1.
 - Uma criatura com 2 de ataque, ataca uma construção com 2 de defesa. Já que o ataque é igual a defesa, então o dano será o ataque. O dano causado na vida da construção será de 2.
+:::
 
 ### Criatura
 As criaturas são as cartas que representam seu exército em campo. Seu deck é caracterizado por um clã, sendo assim, suas criaturas devem ser do mesmo clã. Porém, o clã **Neutral** é o único que suas cartas podem estar misturadas com cartas de outros clãs em um deck. Aqui está um exemplo de carta do tipo **Criatura**.
 
-![](/img/creature_card.png)
+![](/img/others/creature_card.png)
 
 1. Simboliza o clã que a criatura pertence. Você só pode utilizar criaturas que são do clã do seu deck ou do clã **Neutral**. Nesse exemplo, a criatura é do clã **Neutral**.
 2. São os recursos necessários para que a criatura possa ser invocada em campo. Nesse exemplo, a criatura custa uma unidade de **madeira**.
@@ -57,7 +60,7 @@ Os feitiços são classificados em quatro tipos:
 - **Equipamento -** São cartas que servem para melhorar os atributos ou dar poderes para uma criatura em campo.
 - **Armadilha -** São feitiços que podem ser ativados com uma ação do inimigo. Elas são ativadas na sua mão, se haver recursos suficientes e se você quiser.
 
-![](/img/spell_card.png)
+![](/img/others/spell_card.png)
 
 1. Elemento. O elemento do feitiço. Nesse exemplo, o feitiço é do elemento **luz**.
 2. Custo. Os recursos necessários para poder invocar o feitiço. Nesse exemplo, o feitiço custa uma unidade de **mana**.
@@ -67,7 +70,7 @@ Os elementos são utilizados nos feitiços. Para poder utilizar um feitiço de u
 
 |Neutro|Ar|Fogo|Água|Terra|Sombra|Luz|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|![](/img/neutro.png)|![](/img/ar.png)|![](/img/fogo.png)|![](/img/água.png)|![](/img/terra.png)|![](/img/sombra.png)|![](/img/luz.png)|
+|![](/img/elements/neutro.png)|![](/img/elements/ar.png)|![](/img/elements/fogo.png)|![](/img/elements/água.png)|![](/img/elements/terra.png)|![](/img/elements/sombra.png)|![](/img/elements/luz.png)|
 
 
 ## Dano
@@ -75,23 +78,23 @@ Os tipos de danos são mais uma forma de aumentar a variedade de criaturas. Eles
 
 |Nome|Descrição|Simbolo|
 |:-:|:-|:-:|
-|Corpo-a-corpo|O dano corpo-a-corpo é um tipo de dano físico. A criatura que possui o dano corpo-a-corpo, só pode atacar criaturas inimigas que estão na sua linha. Se haver mais de uma criatura inimiga na mesma linha, então só pode atacar a criatura da frente. Só pode atacar a construção que está na sua frente e somente se não haver criaturas inimigas na mesma linha.|![](/img/melee_damage.png)|
-|À distância|O dano à distância também é do tipo dano físico. A criatura que possui o dano à distância pode atacar qualquer criatura inimiga em campo e não sofrerá retaliação. Além disso, só pode atacar a construção que está na sua frente e somente se não haver criaturas inimigas na mesma linha.|![](/img/ranged_damage.png)|
-|Mágico|O dano mágico sempre estará acompanhado ao dano à distância ou ao dano corpo-a-corpo. O dano mágico é efetivo contra criaturas que são imunes ao dano físico.|![](/img/magic_damage.png)|
+|Corpo-a-corpo|O dano corpo-a-corpo é um tipo de dano físico. A criatura que possui o dano corpo-a-corpo, só pode atacar criaturas inimigas que estão na sua linha. Se haver mais de uma criatura inimiga na mesma linha, então só pode atacar a criatura da frente. Só pode atacar a construção que está na sua frente e somente se não haver criaturas inimigas na mesma linha.|![](/img/damage/melee_damage.png)|
+|À distância|O dano à distância também é do tipo dano físico. A criatura que possui o dano à distância pode atacar qualquer criatura inimiga em campo e não sofrerá retaliação. Além disso, só pode atacar a construção que está na sua frente e somente se não haver criaturas inimigas na mesma linha.|![](/img/damage/ranged_damage.png)|
+|Mágico|O dano mágico sempre estará acompanhado ao dano à distância ou ao dano corpo-a-corpo. O dano mágico é efetivo contra criaturas que são imunes ao dano físico.|![](/img/damage/magic_damage.png)|
 
 ## Raridade
 As cartas possuem um tipo de raridade, sendo a **lendária** a mais rara. Os tipos de raridade são:
 
 |Comum|Incomum|Rara|Épica|Lendária|
 |:-:|:-:|:-:|:-:|:-:|
-|![](/img/common.png)|![](/img/uncommon.png)|![](/img/rare.png)|![](/img/epic.png)|![](/img/legendary.png)|
+|![](/img/rarity/common.png)|![](/img/rarity/uncommon.png)|![](/img/rarity/rare.png)|![](/img/rarity/epic.png)|![](/img/rarity/legendary.png)|
 
 ## Recursos
 Os recursos são necessários para poder invocar as cartas em campo. Na sua maioria das vezes, os recursos são produzidos pelas construções, mas também podem ser produzidos por criaturas ou feitiços. Os recursos são:
 
 |Alimento|Madeira|Ouro|Mana|
 |:-:|:-:|:-:|:-:|
-|![](/img/food.png)|![](/img/wood.png)|![](/img/gold.png)|![](/img/mana.png)|
+|![](/img/resources/food.png)|![](/img/resources/wood.png)|![](/img/resources/gold.png)|![](/img/resources/mana.png)|
 
 ## Habilidades
 Esses são os poderes mais comuns que as criaturas podem possuir:

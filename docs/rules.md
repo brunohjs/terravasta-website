@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Regras
 Aqui contém as regras básicas e informações do jogo.
 
@@ -59,24 +63,24 @@ Depois de posicionar as construções, você deve iniciar a compra das cinco pri
 
 ## Tabuleiro
 O tabuleiro de cada jogador é composto por quatro tipos de espaço. O espaço para o deck, em verde, é destinado para você colocar as cartas do seu baralho que vão poder ser compradas ao longo da partida. O cemitério, em rosa, é onde você vai colocar as criaturas que foram destruídas e os feitiços que foram utilizados. O espaço em amarelo será destinado para você poder posicionar suas criaturas. Por último, em azul, está reservado o espaço para você colocar suas quatro construções.
-![](/img/field.jpg)
+![](/img/others/field.jpg)
 
 Em um jogo com dois jogadores, os tabuleiros irão ficar posicionados um de frente para o outro. Dessa forma:
-![](/img/field1.jpg)
+![](/img/others/field1.jpg)
 
 Vale reparar que o espaço para criaturas é composto por duas linhas de quatro espaços. A linha da frente chamamos de *front line*, enquanto que a de trás, chamamos de *back line*. A *front line* é geralmente utilizada para colocar criaturas de dano corpo-a-corpo ou criaturas mais fortes, com mais vida para proteger as construções e a *back line*. Na *back line* é comum colocar criaturas com dano a distância, criaturas mais frágeis ou que possuem algum poder valioso que deve ser protegido.
 
 ### Ataque à distância
 A criatura com o tipo de dano à distância, pode atacar qualquer criatura em campo:
-![](/img/field2.jpg)
+![](/img/others/field2.jpg)
 
 Não havendo criaturas inimigas na sua linha, então ela pode optar por atacar a construção inimiga:
-![](/img/field3.jpg)
+![](/img/others/field3.jpg)
 
 
 ### Ataque corpo-a-corpo
 A criatura com o tipo de dano corpo-a-corpo, pode atacar somente a criatura que está na mesma linha. Se haver duas criaturas inimigas na mesma linha, então só poderá atacar aquela que está na *front line*.
-![](/img/field4.jpg)
+![](/img/others/field4.jpg)
 
 Não havendo criaturas na linha, então é possível atacar a construção.
-![](/img/field6.jpg)
+![](/img/others/field6.jpg)
