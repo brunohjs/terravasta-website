@@ -1,3 +1,8 @@
+---
+title: Cartas
+sidebar_position: 4
+---
+
 # Cartas
 As cartas são os principais componentes do jogo. Nelas são representadas as criaturas, construções, feitiços que são utilizados no campo de batalha. Será descrito os tipos de cartas que existem e cada item que compõe uma carta.
 
