@@ -1,6 +1,7 @@
 ---
-sidebar_title: Introdução
+title: Introdução
 sidebar_position: 1
+slug: /
 ---
 
 ![Título](/img/title.png)
